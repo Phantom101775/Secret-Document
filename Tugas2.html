@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+        .cv-container {
+            max-width: 800px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .kontainer-baris {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .kontainer-baris img {
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0056b3;
+        }
+        h2 {
+            font-size: 22px;
+            color: #0056b3;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: #0056b3;
+            margin-bottom: 15px;
+        }
+        .tabel-biodata {
+            width: 100%;
+            font-size: 16px;
+            border-collapse: collapse;
+        }
+        .tabel-biodata td {
+            padding: 8px 0;
+            vertical-align: top;
+        }
+        .titik-dua {
+            width: 20px;
+            text-align: center;
+        }
+        .tabel-tengah {
+            padding-left: 10px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <!-- Bagian Header (Foto & Nama) -->
+        <div class="kontainer-baris">
+            <img src="../Desain dan Pemrograman Web/Matkul/Foto SMA.jpeg" alt="Foto SMA" width="150" height="150">
+            <div>
+                <span style="font-size: 24px;"><b>AMERIS KITARO AMMADDOR DIWANTA</b></span>
+                <p style="margin: 5px 0 0 0; color: #666; font-size: 16px;">Mahasiswa Sistem Informasi</p>
+            </div>
+        </div>
+
+        <hr style="background-color: #ccc; height: 1px;">
+
+        <!-- Data Pribadi -->
+        <h2>DATA PRIBADI</h2>
+        <hr>
+        <table class="tabel-biodata">
+            <tr>
+                <td>Tempat/Tanggal Lahir</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">Surabaya, 16 Agustus 2006</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">Pondok Wage Indah 2 Blok DD-18</td>
+            </tr>
+            <tr>
+                <td>No HP</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">081568241500</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">Laki-laki</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">sigitrendang67@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td class="titik-dua">:</td>
+                <td class="tabel-tengah">Mahasiswa</td>
+            </tr>
+        </table>
+
+        <!-- Pendidikan -->
+        <h2>PENDIDIKAN</h2>
+        <hr>
+        <ul>
+            <li>SDN Wage 2 (<b>2013-2019</b>)</li>
+            <li>SMPN 21 Surabaya (<b>2019-2022</b>)</li>
+            <li>SMA Kemala Bhayangkari 1 Surabaya (<b>2022-2025</b>)</li>
+            <li>Universitas Dinamika (<b>2025-</b>)</li>
+        </ul>
+
+        <!-- Pengalaman -->
+        <h2>PENGALAMAN</h2>
+        <hr>
+        <ul>
+            <li>Anggota OSIS SMPN 21 Surabaya (<b>2020-2022</b>)</li>
+            <li>Himpunan Mahasiswa D3 Sistem Informasi Universitas Dinamika (<b>2025-</b>)</li>
+            <li>Pengurus UKM Mighty Universitas Dinamika (<b>2025-</b>)</li>
+        </ul>
+
+        <!-- Kemampuan -->
+        <h2>KEMAMPUAN</h2>
+        <hr>
+        <ul>
+            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+            <li>Bahasa Inggris (Lisan dan Tulisan)</li>
+            <li>Bahasa Jepang (Lisan dan Tulisan)</li>
+            <li>Komunikasi dan Kerja Tim</li>
+        </ul>
+    </div>
+
+</body>
+</html>
